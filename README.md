@@ -18,7 +18,7 @@ Diseñada para:
 1. **Clona este repositorio**
 
    ```bash
-   git clone https://github.com/tuusuario/landing-base-template.git mi-nueva-landing
+   git clone https://github.com/Walrus92/landing-dinamica.git mi-nueva-landing
    ```
 
 2. **Entra en la carpeta**
