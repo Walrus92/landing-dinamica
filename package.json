@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "prebuild": "ts-node ./tools/prepare-seo.ts",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "next": "16.0.3",
     "react": "19.2.0",
     "react-dom": "19.2.0"
@@ -21,6 +23,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
